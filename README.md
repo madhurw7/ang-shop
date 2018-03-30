@@ -1,6 +1,6 @@
 # AngShop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6. An Angular based e-commerce web app that I am developing as a part of the final project in the "The Complete Angular Course: Beginner to Advanced" course on Udemy
 
 ## Development server
 
