@@ -14,6 +14,7 @@ export class AuthGuard implements CanActivate{
   //canActivate can take 2 arguments, the second one is used for the optional query parameter that can allow us to redirect to the page we came from after logging in
   canActivate(route, state: RouterStateSnapshot){
     //This is for protecting the routes checks if user is logged in or not
+    //We don't necessarily  have to return bool we can instead return a prommise of a bool, that is why we used map, to map promise of a boolean and return that
     return this.auth.user$.map(user => {
       if (user) return true;
 
